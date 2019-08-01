@@ -8,7 +8,7 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>cc.white.starter</groupId>
+	<groupId>io.github.whitedg</groupId>
 	<artifactId>app-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>app-test</name>
@@ -21,7 +21,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>cc.white.starter</groupId>
+			<groupId>io.github.whitedg</groupId>
 			<artifactId>api-version-spring-boot-starter</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

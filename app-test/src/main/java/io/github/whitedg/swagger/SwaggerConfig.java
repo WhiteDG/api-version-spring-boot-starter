@@ -1,4 +1,4 @@
-package cc.white.starter.swagger;
+package io.github.whitedg.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

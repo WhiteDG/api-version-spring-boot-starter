@@ -1,4 +1,4 @@
-package cc.white.starter;
+package io.github.whitedg;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

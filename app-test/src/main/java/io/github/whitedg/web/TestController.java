@@ -1,6 +1,6 @@
-package cc.white.starter.web;
+package io.github.whitedg.web;
 
-import cc.white.starter.annotation.ApiVersion;
+import io.github.whitedg.annotation.ApiVersion;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

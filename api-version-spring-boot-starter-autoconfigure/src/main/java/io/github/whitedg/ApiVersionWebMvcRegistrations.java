@@ -1,4 +1,4 @@
-package cc.white.starter;
+package io.github.whitedg;
 
 import org.springframework.boot.autoconfigure.web.servlet.WebMvcRegistrations;
 import org.springframework.util.StringUtils;
@@ -18,7 +18,7 @@ public class ApiVersionWebMvcRegistrations implements WebMvcRegistrations {
     @Override
     public RequestMappingHandlerMapping getRequestMappingHandlerMapping() {
         return new ApiVersionRequestMappingHandlerMapping(StringUtils.isEmpty(apiVersionProperties.getPrefix()) ?
-                "v" : apiVersionProperties.getPrefix());
+                "v" : apiVersionProperties.getPrefix(), apiVersionProperties.getSuffix());
     }
 
 }

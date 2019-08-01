@@ -8,7 +8,7 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>cc.white.starter</groupId>
+    <groupId>io.github.whitedg</groupId>
     <artifactId>api-version-spring-boot-starter-autoconfigure</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>api-version-spring-boot-starter-autoconfigure</name>

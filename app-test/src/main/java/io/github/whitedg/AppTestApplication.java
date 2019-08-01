@@ -1,4 +1,4 @@
-package cc.white.starter;
+package io.github.whitedg;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package cc.white.starter;
+package io.github.whitedg;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -10,6 +10,7 @@ public class ApiVersionProperties {
 
     private boolean enable;
     private String prefix;
+    private String suffix;
 
     public String getPrefix() {
         return prefix;
@@ -17,6 +18,14 @@ public class ApiVersionProperties {
 
     public void setPrefix(String prefix) {
         this.prefix = prefix;
+    }
+
+    public String getSuffix() {
+        return suffix;
+    }
+
+    public void setSuffix(String suffix) {
+        this.suffix = suffix;
     }
 
     public boolean isEnable() {

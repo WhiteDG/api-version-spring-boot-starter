@@ -1,7 +1,8 @@
-package cc.white.starter;
+package io.github.whitedg;
 
-import cc.white.starter.annotation.ApiVersion;
+import io.github.whitedg.annotation.ApiVersion;
 import org.springframework.core.annotation.AnnotationUtils;
+import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.mvc.condition.ConsumesRequestCondition;
 import org.springframework.web.servlet.mvc.condition.HeadersRequestCondition;
 import org.springframework.web.servlet.mvc.condition.ParamsRequestCondition;
@@ -21,9 +22,11 @@ import java.lang.reflect.Method;
 public class ApiVersionRequestMappingHandlerMapping extends RequestMappingHandlerMapping {
 
     private final String prefix;
+    private final String suffix;
 
-    public ApiVersionRequestMappingHandlerMapping(String prefix) {
+    public ApiVersionRequestMappingHandlerMapping(String prefix, String suffix) {
         this.prefix = prefix;
+        this.suffix = StringUtils.isEmpty(suffix) ? "" : suffix;
     }
 
     @Override
@@ -53,7 +56,7 @@ public class ApiVersionRequestMappingHandlerMapping extends RequestMappingHandle
         String[] patterns = new String[values.length];
         for (int i = 0; i < values.length; i++) {
             // build the URL prefix
-            patterns[i] = prefix + values[i];
+            patterns[i] = prefix + values[i] + suffix;
         }
 
         return new RequestMappingInfo(

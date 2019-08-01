@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-cc.white.starter.ApiVersionAutoConfiguration
+io.github.whitedg.ApiVersionAutoConfiguration
