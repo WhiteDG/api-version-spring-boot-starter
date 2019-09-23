@@ -1,4 +1,4 @@
-package io.github.whitedg.web;
+package com.github.whitedg.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

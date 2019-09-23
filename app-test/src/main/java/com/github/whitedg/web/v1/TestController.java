@@ -1,6 +1,6 @@
-package io.github.whitedg.web;
+package com.github.whitedg.web.v1;
 
-import io.github.whitedg.annotation.ApiVersion;
+import com.github.whitedg.annotation.ApiVersion;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,14 +17,8 @@ public class TestController {
     }
 
     @GetMapping("foo2")
-    @ApiVersion(2)
     public String foo2() {
         return "方法有注解使用方法注解";
     }
 
-    @GetMapping("foo3")
-    @ApiVersion({1, 2})
-    public String foo3() {
-        return "注解支持多版本";
-    }
 }

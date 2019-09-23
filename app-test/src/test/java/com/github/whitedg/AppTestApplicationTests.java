@@ -1,4 +1,4 @@
-package io.github.whitedg;
+package com.github.whitedg;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
