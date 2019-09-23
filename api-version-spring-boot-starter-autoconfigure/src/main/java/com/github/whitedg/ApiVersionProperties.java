@@ -1,4 +1,4 @@
-package io.github.whitedg;
+package com.github.whitedg;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -8,7 +8,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "api-version")
 public class ApiVersionProperties {
 
-    private boolean enable;
     private String prefix;
     private String suffix;
 
@@ -28,11 +27,4 @@ public class ApiVersionProperties {
         this.suffix = suffix;
     }
 
-    public boolean isEnable() {
-        return enable;
-    }
-
-    public void setEnable(boolean enable) {
-        this.enable = enable;
-    }
 }

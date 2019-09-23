@@ -1,4 +1,4 @@
-package io.github.whitedg;
+package com.github.whitedg;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

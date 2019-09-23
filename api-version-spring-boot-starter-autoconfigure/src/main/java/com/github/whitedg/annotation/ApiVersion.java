@@ -1,4 +1,4 @@
-package io.github.whitedg.annotation;
+package com.github.whitedg.annotation;
 
 import org.springframework.web.bind.annotation.Mapping;
 

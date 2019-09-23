@@ -1,4 +1,4 @@
-package io.github.whitedg;
+package com.github.whitedg;
 
 import org.springframework.boot.autoconfigure.web.servlet.WebMvcRegistrations;
 import org.springframework.util.StringUtils;

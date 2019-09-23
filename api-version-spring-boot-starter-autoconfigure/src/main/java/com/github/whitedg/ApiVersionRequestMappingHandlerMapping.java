@@ -1,6 +1,6 @@
-package io.github.whitedg;
+package com.github.whitedg;
 
-import io.github.whitedg.annotation.ApiVersion;
+import com.github.whitedg.annotation.ApiVersion;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.mvc.condition.ConsumesRequestCondition;
