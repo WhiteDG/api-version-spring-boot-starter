@@ -31,7 +31,7 @@ import org.springframework.context.annotation.Configuration;
 public class ApiVersionAutoConfiguration {
 
     @Bean
-    public ApiVersionWebMvcRegistrations webMvcRegistrationsConfig(ApiVersionProperties apiVersionProperties) {
+    public ApiVersionWebMvcRegistrations apiVersionWebMvcRegistrations(ApiVersionProperties apiVersionProperties) {
         return new ApiVersionWebMvcRegistrations(apiVersionProperties);
     }
 }

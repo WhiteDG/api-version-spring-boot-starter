@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.github.whitedg</groupId>
     <artifactId>api-version-spring-boot-starter-autoconfigure</artifactId>
-    <version>1.1</version>
+    <version>1.3</version>
     <name>api-version-spring-boot-starter-autoconfigure</name>
     <url>https://github.com/WhiteDG/api-version-spring-boot-starter</url>
     <description>api-version-spring-boot-starter-autoconfigure is a lightweight Java Framework and easy to versioning
