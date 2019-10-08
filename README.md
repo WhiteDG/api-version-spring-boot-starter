@@ -22,7 +22,7 @@
     <dependency>
     	<groupId>io.github.whitedg</groupId>
     	<artifactId>api-version-spring-boot-starter</artifactId>
-    	<version>1.1</version>
+    	<version>1.3</version>
     </dependency>
     ```
     - Gradle
