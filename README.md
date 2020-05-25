@@ -27,7 +27,7 @@
     ```
     - Gradle
     ```
-    compile group: 'io.github.whitedg', name: 'api-version-spring-boot-starter', version: '1.1'
+    compile group: 'io.github.whitedg', name: 'api-version-spring-boot-starter', version: '1.3'
     ```
 
 2. 使用 ```@ApiVersion``` 注解
